@@ -1,0 +1,1006 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+section {
+    width: 100%;
+}
+
+.main {
+    width: 1000px;
+    margin: auto;
+    /* border:2px solid rgb(150, 17, 17); */
+    padding-top: 20px;
+    height: 383px;
+}
+
+.alldiv {
+    display: flex;
+}
+
+.topimage {
+    width: 100%;
+    background: url(../image/2.jpg);
+    background-position: center center;
+    height: 533px;
+    margin: 0px auto;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerp {
+    font: 20px arial;
+    text-align: right;
+    color: #09C;
+    line-height: 30px;
+}
+
+span {
+    color: rgb(0, 102, 204);
+}
+
+nav {
+    margin: 20px 0px 5px 0px;
+}
+
+.navimage {
+    background: url(../image/menu_rept.jpg);
+    display: flex;
+    width: 100%;
+    height: 50px;
+    font: 14px arial;
+    font-weight: bold;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.centertext {
+    height: 185px;
+    /* border:2px solid black; */
+    display: flex;
+}
+
+.centertext1 {
+    width: 330px;
+    height: 185px;
+}
+
+.border {
+    border-left: 2px solid #c4e7ee;
+}
+
+.centerdiv {
+    margin-top: 5px;
+    display: flex;
+}
+
+.centerdiv p {
+    font: 12px arial;
+    line-height: 20px;
+    word-spacing: 2px;
+}
+
+.centerimage {
+    margin: 10px;
+}
+
+.centertexta {
+    padding-top: 15px;
+    font-size: 15px;
+    padding-left: 50px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #084986;
+    text-align: left;
+}
+
+.centertexttech {
+    width: 200px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+}
+
+#midiam {
+    height: 675px;
+}
+
+.services {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px 10px 0px;
+    width: auto;
+    height: auto;
+}
+
+.footerimagesdiv {
+    height: 233px;
+    background: url(..//image/midback.png) no-repeat;
+    background-size: cover;
+    width: 1000px;
+}
+
+.footerdiv {
+    display: flex;
+    font: 12px arial;
+}
+
+.foterdesignimg {
+    display: flex;
+    width: 35%;
+    margin-right: 10px;
+    height: 65px;
+}
+
+.footerdesign {
+    display: flex;
+}
+
+.designimg img {
+    width: 55px;
+    height: 45px;
+}
+
+.designimg {
+    margin: -3px 15px 0px 0px;
+}
+
+.footertext {
+    padding-top: 17px;
+}
+
+.bolreg {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin-top: 35px;
+}
+
+.bolimg {
+    width: 355px;
+    display: flex;
+}
+
+.perimg {
+    width: 643px;
+    display: flex;
+}
+
+.personimg img {
+    margin-top: 8px;
+    width: 108px;
+    height: 90px;
+}
+
+.bolregtext {
+    padding-top: 18px;
+    font: 12px arial;
+    padding-left: 10px;
+    line-height: 16px;
+    word-spacing: 2px;
+}
+
+.bolregtext h2 {
+    color: #084986;
+    font: 18px arial;
+    padding-bottom: 5px;
+}
+
+.bolregimg img {
+    margin-top: 12px;
+}
+
+.designimg1 img {
+    width: 55px;
+    height: 45px;
+    padding-left: 15px;
+}
+
+.footertext1 {
+    padding-top: 17px;
+    padding-left: 15px;
+
+}
+
+.bolregtext h4 {
+    padding-top: 10px;
+    text-align: right;
+    padding-right: 7px;
+}
+
+#footerbottom {
+    background: url(..//image/footer.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.dotimg img {
+    width: 5px;
+    height: 5px;
+    margin: 6px;
+}
+
+.dotimg {
+    display: flex;
+    margin-top: 3px;
+}
+
+.footerhomemenu {
+    width: 38%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.footerhomemenu h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.sercolor {
+    text-align: right;
+
+}
+
+.footersection {
+    display: flex;
+}
+
+.dotimg a {
+    font: 12px arial;
+    text-align: left;
+    color: #084a87;
+}
+
+.footeraddress1 {
+    padding: 18px 5px 0px 0px;
+    font: 12px arial;
+    text-align: right;
+    color: #084a87;
+}
+
+.border1 {
+    border: 1px solid black;
+    border-top-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+}
+
+.hr {
+    background: url(..//image/footer_border.jpg) no-repeat;
+    background-color: #084986;
+    width: 1000px;
+    background-size: cover;
+    height: 3px;
+    margin: 20px 0px 30px 0px;
+}
+
+.icon {
+    width: 200px;
+    height: auto;
+    display: flex;
+    margin-left: 800px;
+}
+
+/* COMAPNY PAGE START */
+.topimg {
+    width: 100%;
+    background: url(../image/2.jpg);
+    background-position: center center;
+    height: 155px;
+    margin: 0px auto;
+    background-size: cover;
+}
+
+.boxservices {
+    margin-top: 40px;
+    width: 235px;
+    height: 685px;
+    margin-right: 30px;
+}
+
+.commid {
+    height: 955px;
+}
+
+.boxourservices {
+    background: url(../image/leftpanel.png) no-repeat;
+    background-size: cover;
+    height: 338px;
+    width: 233px;
+    margin-bottom: 20px;
+}
+
+.boxquick {
+    background: url(..//image/leftbelow.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 322px;
+}
+
+.boxh3 {
+    text-align: center;
+    padding-top: 1pc;
+    color: red;
+    font: 18px arial;
+}
+
+.boxanchor {
+    color: #084a87;
+    font: 12px arial;
+    line-height: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.name {
+    margin: 7px 0px 0px 20px;
+    color: #084a87;
+    font: 14px arial bold;
+}
+
+.name input {
+    border: 1px solid #084a87;
+}
+
+textarea {
+    border: 1px solid #084a87;
+    height: 60px;
+}
+
+.request {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.request img {
+    width: 12px;
+    height: 7px;
+    margin-top: 4px;
+    margin-left: 4px;
+
+}
+
+.request h3 {
+    color: #084a87;
+    font: 14px arial;
+}
+
+.companytext {
+    margin-top: 30px;
+    /* margin-left:30px; */
+    width: 735px;
+}
+
+.companytext h3 {
+    color: #084986;
+    font: 20px arial;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.companytext p {
+    font: 12px arial;
+    line-height: 35px;
+}
+
+/* COMPANY PAGE END*/
+/* contact page start*/
+
+.topimg {
+    width: 100%;
+    background: url(../image/2.jpg) repeat-x;
+    background-position: bottom;
+    height: 160px;
+    margin: 0px auto;
+    background-size: cover;
+
+}
+
+.namefor {
+    margin-top: 20px;
+}
+
+.contactform {
+    width: 350px;
+}
+
+.contactbox {
+    display: flex;
+}
+
+.contacttext h3 {
+    color: #084986;
+    margin: 50px 0px 0px 0px;
+}
+
+.conatccomment textarea {
+    width: 316px;
+    height: 171px;
+    border-color: rgb(38, 38, 38);
+}
+
+.namefor input {
+    width: 275px;
+    height: 25px;
+}
+
+.redbox {
+    display: flex;
+    height: 2px;
+}
+
+.reddot {
+    color: red;
+}
+
+.conatctform1 {
+    margin: 25px 0px 0px 0px;
+}
+
+.namefor,
+.conatccomment label {
+    font: 13px arial bold;
+
+}
+
+.contactsubmit input {
+    width: 88px;
+    height: 32px;
+    background-color: darkgreen;
+    border-radius: 10px;
+    font: 15px arial bold;
+    color: white;
+    margin-top: 10px;
+
+}
+
+/* contact page end*/
+/* request page start*/
+.contacttext p {
+    text-align: justify;
+    font: 13px arial bold;
+    line-height: 30px;
+    padding-right: 10px;
+}
+
+.request h3 {
+    margin-bottom: 10px;
+}
+
+.contacttext h1 {
+    color: #084986;
+    font-size: 20px;
+    padding: 35px 0px 15px 0px;
+}
+
+.requestdot {
+    display: flex;
+    height: 0px;
+}
+
+.reqdot {
+    color: red;
+}
+
+.name1 {
+    height: 50px;
+}
+
+.name1 textarea {
+    width: 279px;
+    height: 71px;
+    border-color: #bebcbc;
+}
+
+.name1 input {
+    border: 1px solid#bebcbc;
+}
+
+.name1 select {
+    width: 279px;
+    height: 27px;
+    border: 1px solid#bebcbc;
+}
+
+.name1 label {
+    font: 12px arial bold;
+}
+
+.requestdiv9 {
+    display: flex;
+}
+
+.reqtype select {
+    width: 62px;
+    height: 19px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.requestclass {
+    width: 355px;
+    margin: 17px 0px 0px 70px;
+}
+
+.solution span {
+    color: red;
+}
+
+.solution {
+    font: 12px arial bold;
+}
+
+.requestdiv9 input {
+    width: 180px;
+}
+
+.solution span {
+    color: red;
+}
+
+.solution {
+    height: 25px;
+}
+
+.checkbox1 label {
+    font: 12px arial bold;
+}
+
+.checkbox1 input {
+    margin: 7px 7px 0px 5px;
+}
+
+.jobdip {
+    margin: 5px 0px 2px 0px;
+}
+
+.jobdip span {
+    color: red;
+}
+
+.jobdip label {
+    font: 12px arial bold;
+}
+
+.jobdip textarea {
+    width: 316px;
+    height: 171px;
+    border-color: #bebcbc;
+}
+
+.uploadborder {
+    width: 279px;
+    height: 27px;
+    border: 1px solid #bebcbc;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+
+.reqphoto span {
+    color: red;
+}
+
+.reqphoto label {
+    font: 12px arial bold;
+}
+
+.doctype {
+    font: 12px arial bold;
+    margin-top: 15px;
+}
+
+.requestsubmit input {
+    width: 90px;
+    height: 35px;
+    margin-top: 20px;
+
+}
+
+/* request page end*/
+/* client page start*/
+.clientdivbox {
+    height: 1050px;
+}
+
+.clientname {
+    text-align: right;
+    margin: 10px 0px 10px 0px;
+}
+
+.clientbox {
+    display: flex;
+    margin-top: 50px;
+}
+
+.namefor1 {
+    margin-top: 0px;
+}
+
+.namefor1 input {
+    width: 275px;
+    height: 25px;
+}
+
+.namefor1 {
+    font: 13px arial bold;
+
+}
+
+.conatctform2 {
+    margin: 0px;
+}
+
+/* client page end*/
+/*career page start*/
+.careeronline {
+    display: flex;
+}
+.portfilodivbox{
+    height:970px;
+}
+.career11 {
+    width: 200px;
+    margin: 14px 0px 0px 0px;
+}
+
+.careerttext {
+    padding-top: 25px;
+}
+
+.careerttext h1 {
+    color: #084986;
+}
+
+.careera {
+    width: 600px;
+    height: 20px;
+    margin: 10px 0px 0px 0px;
+    font: 15px arial;
+    font-weight: bold;
+    color: black;
+
+}
+
+.careerdivbox {
+    height: 1785px;
+}
+
+.careera:hover a {
+    color: #0a3278ec;
+}
+
+.career11 {
+    font: 12px arial;
+    color: black;
+}
+
+.careersecond11 {
+    font: 12px arial;
+    color: black;
+    margin: 14px 0px 0px 0px;
+}
+
+.applybutton {
+    text-align: end;
+    font: 12px arial bold;
+}
+
+.applybutton input {
+    width: 55px;
+    height: 23px;
+}
+
+.careesecond1 {
+    width: 490px;
+}
+
+/*career page end*/
+/*portfilo page start*/
+.portfilotext {
+    display: flex;
+    margin: 20px 0px 0px 25px;
+}
+
+.portfiloimg1 img {
+    width: 212px;
+    height: 212px;
+    border: 1px solid rgb(175, 173, 173);
+}
+
+.portfiloimg12 img {
+    width: 212px;
+    height: 212px;
+    border: 1px solid rgb(175, 173, 173);
+}
+
+.portfilo {
+    margin-right: 25px;
+}
+
+.portfilo1 {
+    margin-right: 25px;
+}
+
+.portfiloimg12 {
+    margin-top: 40px;
+}
+
+.portfiloh3 h4 {
+    font: 12px arial;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.porttext {
+    margin: 7px 0px 7px 25px;
+    font: 12px arial;
+    text-decoration: underline;
+    color: rgb(43, 118, 237);
+}
+
+.porttext1 {
+    font: 12px arial;
+    text-decoration: underline;
+    color: rgb(43, 118, 237);
+    margin: 0px 0px 0px 55px;
+}
+
+.portfilotext h1 {
+    width: 200px;
+}
+
+/*portfilo page end*/
+/*outsources page start*/
+.outsourceline {
+    display: flex;
+}
+.outsourcedivbox{
+    height:1145px;
+}
+.outsourceimg {
+    width: auto;
+    height: 510px;
+}
+
+.outsourceimg p {
+    font: 12px arial;
+    line-height: 25px;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.outsourceimg img:nth-child(2) {
+    width: 6px;
+    height: 16px;
+    margin-top: 10px;
+}
+
+.outsourceimg h1 {
+    display: inline;
+}
+
+.outsourceimgbox {
+    display: flex;
+}
+
+.outimg1 {
+    width: 105px;
+}
+
+.outimg1 img {
+    margin-left: 10px;
+}
+
+.outimg1 h4 {
+    padding-top: 5px;
+    padding-bottom: 13px;
+    ;
+    font: 12px arial;
+    color: #084a87;
+}
+
+.outside1 h4 {
+    padding-left: 15px;
+    padding-bottom: 26px;
+}
+
+.outside1 img {
+    margin-left: 0px;
+    margin-left: 15px;
+}
+
+.outside3 img {
+    margin-left: 18px;
+}
+
+.outttext p {
+    font: 12px arial;
+    line-height: 25px;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.outttext {
+    margin-top: 20px;
+}
+
+.arrowimg h1 {
+    color: #084986;
+    font: 20px arial;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.image2 img {
+    padding-top: 5px;
+}
+
+.image2 {
+    display: inline;
+}
+
+.arrowimg {
+    width: 385px;
+    height: 35px;
+}
+
+.outsourceimg {
+    margin-left: 15px;
+}
+
+/*outsources page end*/
+/*domain registration page start*/
+.domaindivbox {
+    height: 1525px;
+}
+
+table,
+th,
+tr,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 380px;
+    height: 450px;
+    text-align: center;
+}
+
+thead {
+    height: 60px;
+}
+
+.domainp p {
+    padding-top: 15px;
+}
+
+td a {
+    text-decoration: underline;
+    color: #7823d2
+}
+
+td:hover a {
+    color: red;
+}
+
+.outsourceimg h2 {
+    padding: 8px 0px 13px 0px;
+    font: 18px arial;
+    font-weight: bold;
+}
+
+th {
+    font: 12px arial;
+    font-weight: bold;
+}
+
+/*domain registration page end*/
+/* seo page start*/
+.search P{
+    padding-top:20px;
+}
+.seco p{
+    padding-top:20px;
+}
+.seodivbox{
+    height:1300px;
+}
+/*seo page end*/
+/* ecommerce page start*/
+.Ecommerce p{
+    padding-top:30px;
+
+    
+}
+/* ecommerce page end*/
+/*mobile application page start*/
+.Ecommerce p{
+    padding-top: 25px;
+}
+.mobiledivbox{
+    height:1100px;
+}
+/*mobile application page end*/
+/* about page start */
+.outsourceline{
+    height:580px;
+}
+.aboutdivbox{
+    height:1230px;
+}
+/*about page end*/
+/*psd page start*/
+.psd li{
+    font:12px arial;
+    line-height:23px;
+}
+.psd ul{
+    margin-left: 60px;
+}
+.psd p:nth-child(2){
+    padding-bottom:25px;
+}
+.psdapp{
+    height:435px;
+    display:flex;
+}
+.psddivbox{
+    height:970px;ś
+}
+/* psd page end*/
+/* service page start*/
+.serviceh1{
+    width:93%;
+}
+.serviceh1 h1{
+    width:75%;
+    font:24px arial;
+       font-weight: bold;
+       padding:15px 0px 30px 0px;
+}
+.serviceh1 p{
+    line-height:25px;
+    padding-bottom:15px;
+}
+.servicestool h1{
+  font:22px verdana;
+    color:#084986;
+    font-weight: bold;
+    margin:25px 0px 0px 0px;
+}
+.serviceh1 a{
+    color:#551a8b;
+    text-decoration: underline;
+   display: flex;
+   justify-content: end;
+}
+.mainbox{
+    width: 1000px;
+    margin: auto;
+    /* border:2px solid rgb(150, 17, 17); */
+    padding-top: 20px;
+    height: 383px;
+    display: flex;
+}
+.servicedivbox{
+    height:1100px;
+}
+/*service page end*/
